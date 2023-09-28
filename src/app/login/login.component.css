@@ -1,0 +1,39 @@
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Esto asegura que ocupe el 100% de la altura de la pantalla */
+}
+
+.centered-div {
+    background-color: #fff; /* Cambia el color de fondo según tus preferencias */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.logo{
+    
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(184, 223, 13, 0.2);
+    position: relative;
+    top: -100px; 
+    background-color: #000000;
+    color: #ffffff; 
+    padding: 40px;
+    overflow: hidden;
+    font-size: 50px; 
+    border-radius: 50%;
+}
+
+.login{
+    position: relative;
+    top: -70px; 
+
+}
+
+.boton{
+    position: relative;
+    top: -50px; 
+}
